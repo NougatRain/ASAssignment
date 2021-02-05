@@ -17,7 +17,7 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            <h2>HomePage</h2>
+            <h2>HomePage.</h2>
             <br />
             <asp:Label ID="lblMessage" runat="server" EnableViewState="False"></asp:Label>
             <br />
