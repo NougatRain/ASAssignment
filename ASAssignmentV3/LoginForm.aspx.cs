@@ -106,7 +106,7 @@ namespace ASAssignmentV3
 
             string captchaResponse = Request.Form["g-recaptcha-response"];
 
-            HttpWebRequest req = (HttpWebRequest)WebRequest.Create("https://www.google.com/recaptcha/api/siteverify?secret=6Ld-rUoaAAAAAPFkAzVlUNztfllS6Bld9wwxp-Ai &response=" + captchaResponse);
+            HttpWebRequest req = (HttpWebRequest)WebRequest.Create("https://www.google.com/recaptcha/api/siteverify?secret= &response=" + captchaResponse);
 
             try
             {
