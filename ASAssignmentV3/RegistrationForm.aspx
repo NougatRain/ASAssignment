@@ -6,7 +6,7 @@
 <head runat="server">
     <title>Registration</title>
 
-    <script src="https://www.google.com/recaptcha/api.js?render=6Ld-rUoaAAAAACu7vrl1ucZRs9ynzkPpyjZDYbRT"></script> 
+    <script src="https://www.google.com/recaptcha/api.js?render="></script> 
 
             <script type="text/javascript">
                 function validate() {
@@ -146,7 +146,7 @@
 
     <script>
         grecaptcha.ready(function () {
-            grecaptcha.execute('6Ld-rUoaAAAAACu7vrl1ucZRs9ynzkPpyjZDYbRT', { action: 'Login' }).then(function (token) {
+            grecaptcha.execute('', { action: 'Login' }).then(function (token) {
                 document.getElementById("g-recaptcha-response").value = token;
             });
         });
